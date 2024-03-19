@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
-import LoginButton from "@/components/auth/login-button";
+import { LoginButton } from "@/components/auth/login-button";
 const font = Poppins({
   weight: ["600"],
   subsets: ["latin"],
@@ -9,7 +9,7 @@ const font = Poppins({
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-sky-400  to-sky-800">
+    <main className="flex flex-col justify-center items-center h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-sky-400  to-blue-800">
       <div className="container">
         <div className="space-y-6 text-center">
           <h1

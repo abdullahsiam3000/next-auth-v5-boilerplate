@@ -7,7 +7,7 @@ interface LoginButtonProps {
   asChild?: boolean;
 }
 
-const LoginButton = ({
+export const LoginButton = ({
   children,
   asChild,
   mode = "redirect",
@@ -24,5 +24,3 @@ const LoginButton = ({
 
   return <span onClick={handleButtonClick}>{children}</span>;
 };
-
-export default LoginButton;
