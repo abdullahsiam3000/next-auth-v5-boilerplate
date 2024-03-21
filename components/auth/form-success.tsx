@@ -1,7 +1,7 @@
 import { CheckIcon } from "@radix-ui/react-icons";
 
-export const FormSuccess = ({ message }: { message: string }) => {
-  if (message.length <= 0) {
+export const FormSuccess = ({ message }: { message: string | undefined }) => {
+  if (!message) {
     return null;
   }
   return (
