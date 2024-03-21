@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { LoginButton } from "@/components/auth/login-button";
+import { db } from "@/lib/db";
 const font = Poppins({
   weight: ["600"],
   subsets: ["latin"],
