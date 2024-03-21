@@ -44,7 +44,7 @@ export const CardWrapper = ({
         </CardFooter>
       )}
       <CardFooter>
-        <Button variant={"link"} asChild>
+        <Button className="w-full" variant={"link"} asChild>
           <Link href={backButtonHref}>{backButtonText}</Link>
         </Button>
       </CardFooter>
